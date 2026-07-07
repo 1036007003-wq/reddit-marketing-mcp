@@ -1,0 +1,31 @@
+{
+  "name": "reddit-marketing-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for Reddit marketing automation - research, post, analyze, and grow on Reddit. Free tools + premium features.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "reddit-marketing-mcp": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "reddit",
+    "marketing",
+    "automation",
+    "ai"
+  ],
+  "author": "wangchenji",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1036007003-wq/reddit-marketing-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
