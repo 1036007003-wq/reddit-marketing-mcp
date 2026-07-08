@@ -1,5 +1,5 @@
 {
-  "name": "reddit-marketing-mcp",
+  "name": "@1036007003-wq/reddit-marketing-mcp",
   "version": "1.0.0",
   "description": "MCP Server for Reddit marketing automation - research, post, analyze, and grow on Reddit. Free tools + premium features.",
   "type": "module",
@@ -27,5 +27,6 @@
     "@modelcontextprotocol/sdk": "^1.0.4",
     "dotenv": "^16.4.5",
     "node-fetch": "^3.3.2"
-  }
+  },
+  "mcpName": "io.github.1036007003-wq/reddit-marketing"
 }

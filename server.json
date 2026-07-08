@@ -1,0 +1,43 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.1036007003-wq/reddit-marketing",
+  "description": "MCP Server for Reddit marketing automation \u2014 research, post, monitor subreddits, track trending topics, and grow your Reddit presence.",
+  "repository": {
+    "url": "https://github.com/1036007003-wq/reddit-marketing-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@1036007003-wq/reddit-marketing-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "REDDIT_CLIENT_ID",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string",
+          "description": "Reddit API client ID"
+        },
+        {
+          "name": "REDDIT_CLIENT_SECRET",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string",
+          "description": "Reddit API client secret"
+        },
+        {
+          "name": "REDDIT_USER_AGENT",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string",
+          "description": "Custom user agent string"
+        }
+      ]
+    }
+  ]
+}
